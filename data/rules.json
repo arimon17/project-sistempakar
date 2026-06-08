@@ -1,0 +1,172 @@
+{
+  "rules": [
+    {
+      "kode": "R01",
+      "diagnosa": "D01",
+      "gejala": ["G07", "G04"],
+      "cf_pakar": 0.8,
+      "deskripsi": "Bunyi beep berulang saat booting DAN muncul BSOD mengindikasikan kegagalan POST akibat RAM bermasalah"
+    },
+    {
+      "kode": "R02",
+      "diagnosa": "D01",
+      "gejala": ["G03", "G16", "G18"],
+      "cf_pakar": 0.7,
+      "deskripsi": "Sering restart sendiri DAN aplikasi crash DAN sistem freeze menunjukkan RAM tidak stabil saat membaca/menulis data"
+    },
+    {
+      "kode": "R03",
+      "diagnosa": "D01",
+      "gejala": ["G04", "G05", "G18"],
+      "cf_pakar": 0.75,
+      "deskripsi": "BSOD DAN performa lambat DAN sering freeze merupakan kombinasi klasik kerusakan atau slot RAM bermasalah"
+    },
+    {
+      "kode": "R04",
+      "diagnosa": "D01",
+      "gejala": ["G07", "G16"],
+      "cf_pakar": 0.6,
+      "deskripsi": "Bunyi beep saat booting DAN aplikasi sering crash dapat menandakan RAM tidak terbaca sempurna oleh sistem"
+    },
+    {
+      "kode": "R05",
+      "diagnosa": "D02",
+      "gejala": ["G06", "G14"],
+      "cf_pakar": 0.85,
+      "deskripsi": "HDD/SSD tidak terdeteksi DAN OS gagal booting adalah indikasi kuat kerusakan pada media penyimpanan"
+    },
+    {
+      "kode": "R06",
+      "diagnosa": "D02",
+      "gejala": ["G21", "G06"],
+      "cf_pakar": 0.9,
+      "deskripsi": "Suara klik-klik dari HDD DAN drive tidak terdeteksi adalah tanda kerusakan mekanis serius pada harddisk"
+    },
+    {
+      "kode": "R07",
+      "diagnosa": "D02",
+      "gejala": ["G05", "G18", "G14"],
+      "cf_pakar": 0.7,
+      "deskripsi": "Performa sangat lambat DAN sering freeze DAN OS gagal booting mengindikasikan bad sector atau kerusakan logis pada storage"
+    },
+    {
+      "kode": "R08",
+      "diagnosa": "D02",
+      "gejala": ["G21", "G14"],
+      "cf_pakar": 0.8,
+      "deskripsi": "Suara klik-klik DAN OS gagal booting menandakan HDD mengalami kerusakan mekanis yang mengganggu proses booting"
+    },
+    {
+      "kode": "R09",
+      "diagnosa": "D03",
+      "gejala": ["G10", "G11", "G13"],
+      "cf_pakar": 0.85,
+      "deskripsi": "Komputer cepat panas DAN kipas bermasalah DAN mati mendadak adalah tanda overheating yang sudah parah"
+    },
+    {
+      "kode": "R10",
+      "diagnosa": "D03",
+      "gejala": ["G03", "G10", "G20"],
+      "cf_pakar": 0.8,
+      "deskripsi": "Sering restart DAN cepat panas DAN menyala lalu langsung mati menunjukkan thermal shutdown akibat CPU terlalu panas"
+    },
+    {
+      "kode": "R11",
+      "diagnosa": "D03",
+      "gejala": ["G13", "G20", "G11"],
+      "cf_pakar": 0.75,
+      "deskripsi": "Mati mendadak DAN menyala lalu mati DAN kipas tidak normal mengindikasikan sistem pendinginan gagal mencegah overheat"
+    },
+    {
+      "kode": "R12",
+      "diagnosa": "D03",
+      "gejala": ["G10", "G03"],
+      "cf_pakar": 0.6,
+      "deskripsi": "Komputer cepat panas DAN sering restart dapat menjadi gejala awal overheating yang perlu segera ditangani"
+    },
+    {
+      "kode": "R13",
+      "diagnosa": "D04",
+      "gejala": ["G01", "G02"],
+      "cf_pakar": 0.85,
+      "deskripsi": "Komputer tidak bisa menyala DAN lampu indikator mati adalah indikasi kuat sumber daya tidak berfungsi sama sekali"
+    },
+    {
+      "kode": "R14",
+      "diagnosa": "D04",
+      "gejala": ["G12", "G13"],
+      "cf_pakar": 0.75,
+      "deskripsi": "Baterai tidak mengisi DAN komputer mati mendadak menandakan masalah pada sistem power manajemen baterai laptop"
+    },
+    {
+      "kode": "R15",
+      "diagnosa": "D04",
+      "gejala": ["G20", "G02"],
+      "cf_pakar": 0.8,
+      "deskripsi": "Menyala beberapa detik lalu mati DAN lampu indikator tidak menyala mengindikasikan PSU tidak mampu mensuplai daya yang cukup"
+    },
+    {
+      "kode": "R16",
+      "diagnosa": "D04",
+      "gejala": ["G01", "G20"],
+      "cf_pakar": 0.7,
+      "deskripsi": "Tidak bisa menyala DAN menyala lalu langsung mati menunjukkan PSU atau baterai mengalami kerusakan parsial"
+    },
+    {
+      "kode": "R17",
+      "diagnosa": "D05",
+      "gejala": ["G08", "G09"],
+      "cf_pakar": 0.85,
+      "deskripsi": "Layar tidak menampilkan gambar DAN muncul artefak/garis adalah indikasi kerusakan fisik pada GPU atau VRAM"
+    },
+    {
+      "kode": "R18",
+      "diagnosa": "D05",
+      "gejala": ["G19", "G22"],
+      "cf_pakar": 0.8,
+      "deskripsi": "Performa grafis menurun drastis DAN driver GPU tidak terdeteksi menandakan kerusakan pada chip GPU atau masalah driver kritis"
+    },
+    {
+      "kode": "R19",
+      "diagnosa": "D05",
+      "gejala": ["G07", "G08"],
+      "cf_pakar": 0.7,
+      "deskripsi": "Bunyi beep saat booting DAN layar gelap dapat menandakan GPU tidak terdeteksi oleh BIOS sehingga POST gagal"
+    },
+    {
+      "kode": "R20",
+      "diagnosa": "D05",
+      "gejala": ["G09", "G19"],
+      "cf_pakar": 0.75,
+      "deskripsi": "Artefak pada layar DAN penurunan performa grafis menunjukkan VRAM bermasalah atau GPU mengalami overheating"
+    },
+    {
+      "kode": "R21",
+      "diagnosa": "D06",
+      "gejala": ["G14", "G15", "G16"],
+      "cf_pakar": 0.85,
+      "deskripsi": "OS gagal booting DAN sering error sistem DAN aplikasi crash adalah kombinasi indikasi file sistem yang corrupt"
+    },
+    {
+      "kode": "R22",
+      "diagnosa": "D06",
+      "gejala": ["G04", "G15", "G17"],
+      "cf_pakar": 0.75,
+      "deskripsi": "BSOD DAN error sistem berulang DAN port USB bermasalah menunjukkan kerusakan driver atau registry sistem operasi"
+    },
+    {
+      "kode": "R23",
+      "diagnosa": "D06",
+      "gejala": ["G05", "G16", "G17"],
+      "cf_pakar": 0.7,
+      "deskripsi": "Performa lambat DAN aplikasi crash DAN USB tidak berfungsi mengindikasikan OS mengalami korupsi atau infeksi malware"
+    },
+    {
+      "kode": "R24",
+      "diagnosa": "D06",
+      "gejala": ["G14", "G04"],
+      "cf_pakar": 0.8,
+      "deskripsi": "OS gagal booting DAN BSOD adalah kombinasi langsung yang menunjukkan kerusakan pada file boot atau sistem operasi"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "gejala": [
+    {
+      "kode": "G01",
+      "nama": "Komputer/laptop tidak bisa menyala",
+      "keterangan": "Tidak ada respons sama sekali saat tombol power ditekan"
+    },
+    {
+      "kode": "G02",
+      "nama": "Lampu indikator tidak menyala",
+      "keterangan": "LED power atau charging tidak menyala sama sekali"
+    },
+    {
+      "kode": "G03",
+      "nama": "Komputer sering restart sendiri",
+      "keterangan": "Restart tiba-tiba tanpa perintah dari pengguna"
+    },
+    {
+      "kode": "G04",
+      "nama": "Muncul Blue Screen (BSOD)",
+      "keterangan": "Layar biru dengan kode error sistem Windows"
+    },
+    {
+      "kode": "G05",
+      "nama": "Komputer berjalan sangat lambat",
+      "keterangan": "Respons sistem jauh di bawah normal, loading lama"
+    },
+    {
+      "kode": "G06",
+      "nama": "Harddisk/SSD tidak terdeteksi",
+      "keterangan": "Storage tidak muncul di BIOS maupun sistem operasi"
+    },
+    {
+      "kode": "G07",
+      "nama": "Bunyi beep berulang saat booting",
+      "keterangan": "POST beep code terdengar saat pertama kali menyalakan komputer"
+    },
+    {
+      "kode": "G08",
+      "nama": "Layar tidak menampilkan gambar",
+      "keterangan": "Monitor atau layar laptop gelap meskipun komputer menyala"
+    },
+    {
+      "kode": "G09",
+      "nama": "Layar muncul artefak atau garis-garis",
+      "keterangan": "Tampilan visual rusak, piksel aneh, atau garis horizontal/vertikal"
+    },
+    {
+      "kode": "G10",
+      "nama": "Komputer/laptop cepat panas",
+      "keterangan": "Suhu body atau komponen terasa tinggi tidak normal saat digunakan"
+    },
+    {
+      "kode": "G11",
+      "nama": "Kipas pendingin berisik atau tidak berputar normal",
+      "keterangan": "Suara kipas kasar, berdecit, atau kipas mati total"
+    },
+    {
+      "kode": "G12",
+      "nama": "Baterai tidak mengisi daya",
+      "keterangan": "Laptop tidak charging meskipun adaptor sudah terpasang"
+    },
+    {
+      "kode": "G13",
+      "nama": "Komputer mati mendadak saat digunakan",
+      "keterangan": "Shutdown tiba-tiba tanpa peringatan saat sedang digunakan"
+    },
+    {
+      "kode": "G14",
+      "nama": "Sistem operasi gagal booting",
+      "keterangan": "OS tidak bisa masuk sampai desktop, stuck di loading screen"
+    },
+    {
+      "kode": "G15",
+      "nama": "Sering muncul pesan error sistem",
+      "keterangan": "Notifikasi error Windows atau Linux muncul berulang kali"
+    },
+    {
+      "kode": "G16",
+      "nama": "Aplikasi sering crash atau hang",
+      "keterangan": "Program tiba-tiba berhenti atau tidak merespons (not responding)"
+    },
+    {
+      "kode": "G17",
+      "nama": "Port USB tidak berfungsi",
+      "keterangan": "Perangkat USB tidak terdeteksi pada semua atau sebagian port"
+    },
+    {
+      "kode": "G18",
+      "nama": "Komputer sering freeze",
+      "keterangan": "Sistem membeku total, tidak merespons input keyboard maupun mouse"
+    },
+    {
+      "kode": "G19",
+      "nama": "Performa grafis menurun drastis",
+      "keterangan": "FPS drop ekstrem saat gaming, rendering lambat, lag visual"
+    },
+    {
+      "kode": "G20",
+      "nama": "Komputer menyala beberapa detik lalu mati",
+      "keterangan": "Power hidup sebentar kemudian langsung mati sendiri"
+    },
+    {
+      "kode": "G21",
+      "nama": "Muncul suara klik-klik dari HDD saat booting",
+      "keterangan": "Clicking sound dari harddisk, indikasi kerusakan mekanis pada piringan"
+    },
+    {
+      "kode": "G22",
+      "nama": "Resolusi layar tidak bisa diubah atau driver GPU tidak terdeteksi",
+      "keterangan": "Display settings terbatas, Device Manager menampilkan error pada driver VGA"
+    }
+  ]
+}

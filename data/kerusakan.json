@@ -1,0 +1,88 @@
+{
+  "kerusakan": [
+    {
+      "kode": "D01",
+      "nama": "Kerusakan RAM",
+      "deskripsi": "Modul memori (RAM) mengalami masalah seperti kotor, longgar dari slot, atau rusak secara fisik maupun elektrikal.",
+      "solusi": [
+        "Lepas dan bersihkan keping RAM menggunakan karet penghapus pada bagian pin kuning",
+        "Pastikan RAM terpasang dengan benar dan kunci slot berbunyi klik",
+        "Coba jalankan dengan satu keping RAM saja untuk isolasi masalah",
+        "Lakukan tes RAM menggunakan tools seperti MemTest86",
+        "Ganti RAM jika sudah dipastikan rusak"
+      ],
+      "tingkat_bahaya": "Tinggi",
+      "estimasi_biaya": "Rp 150.000 – Rp 800.000 (tergantung kapasitas dan tipe RAM)"
+    },
+    {
+      "kode": "D02",
+      "nama": "Kerusakan Harddisk/SSD",
+      "deskripsi": "Media penyimpanan utama (HDD atau SSD) mengalami kerusakan fisik pada piringan magnetik, kerusakan sektor, atau kerusakan pada chip controller SSD.",
+      "solusi": [
+        "Backup data segera jika drive masih bisa terbaca sebagian",
+        "Jalankan CHKDSK atau disk utility untuk memeriksa bad sector",
+        "Gunakan tools seperti CrystalDiskInfo untuk cek health status drive",
+        "Untuk HDD: hindari benturan fisik, pertimbangkan recovery data profesional",
+        "Ganti HDD/SSD baru dan install ulang sistem operasi"
+      ],
+      "tingkat_bahaya": "Sangat Tinggi",
+      "estimasi_biaya": "Rp 300.000 – Rp 1.500.000 (tergantung kapasitas dan tipe)"
+    },
+    {
+      "kode": "D03",
+      "nama": "Overheating Processor",
+      "deskripsi": "Prosesor mengalami suhu operasional yang melebihi batas aman akibat sistem pendinginan yang tidak optimal, pasta thermal kering, atau ventilasi tersumbat.",
+      "solusi": [
+        "Bersihkan kipas dan heatsink dari debu menggunakan blower atau kuas",
+        "Ganti pasta thermal (thermal paste) pada prosesor",
+        "Pastikan ventilasi laptop/PC tidak terhalang",
+        "Gunakan cooling pad untuk laptop",
+        "Periksa apakah kipas CPU masih berfungsi normal"
+      ],
+      "tingkat_bahaya": "Tinggi",
+      "estimasi_biaya": "Rp 50.000 – Rp 300.000 (pasta thermal + jasa servis)"
+    },
+    {
+      "kode": "D04",
+      "nama": "Kerusakan Power Supply / Baterai",
+      "deskripsi": "Sumber daya utama bermasalah — pada PC berupa Power Supply Unit (PSU) yang tidak mampu mensuplai daya stabil, pada laptop berupa baterai yang rusak atau adaptor bermasalah.",
+      "solusi": [
+        "Untuk laptop: coba gunakan adaptor berbeda untuk isolasi masalah",
+        "Kalibrasi baterai: charge penuh lalu biarkan habis total, ulangi 2–3 kali",
+        "Periksa kondisi fisik kabel adaptor dari keretakan atau putus",
+        "Untuk PC: ukur output PSU menggunakan multimeter",
+        "Ganti baterai laptop atau PSU PC jika sudah dipastikan rusak"
+      ],
+      "tingkat_bahaya": "Tinggi",
+      "estimasi_biaya": "Rp 200.000 – Rp 1.200.000 (baterai laptop atau PSU baru)"
+    },
+    {
+      "kode": "D05",
+      "nama": "Kerusakan VGA/GPU",
+      "deskripsi": "Kartu grafis (GPU) mengalami masalah secara fisik akibat panas berlebih, kerusakan pada VRAM, atau driver yang corrupt sehingga tidak dapat menampilkan output grafis dengan benar.",
+      "solusi": [
+        "Update atau reinstall driver GPU dari situs resmi NVIDIA/AMD/Intel",
+        "Bersihkan slot PCIe dan pin konektor GPU",
+        "Periksa apakah konektor daya GPU (6-pin/8-pin) terpasang dengan benar",
+        "Masuk ke Safe Mode untuk memastikan masalah pada driver atau hardware",
+        "Ganti VGA card jika kerusakan bersifat fisik"
+      ],
+      "tingkat_bahaya": "Tinggi",
+      "estimasi_biaya": "Rp 500.000 – Rp 5.000.000 (tergantung kelas GPU)"
+    },
+    {
+      "kode": "D06",
+      "nama": "Kerusakan Sistem Operasi",
+      "deskripsi": "File sistem operasi mengalami korupsi, konfigurasi registry rusak, atau terdapat infeksi malware yang menyebabkan OS tidak dapat berjalan dengan normal.",
+      "solusi": [
+        "Jalankan System File Checker: buka CMD sebagai admin, ketik sfc /scannow",
+        "Gunakan fitur Startup Repair dari media instalasi Windows",
+        "Boot ke Safe Mode untuk diagnosa dan perbaikan lebih lanjut",
+        "Scan malware menggunakan antivirus bootable (Kaspersky Rescue Disk, dll)",
+        "Install ulang sistem operasi sebagai langkah terakhir — backup data dulu"
+      ],
+      "tingkat_bahaya": "Sedang",
+      "estimasi_biaya": "Rp 0 – Rp 200.000 (jasa install ulang OS)"
+    }
+  ]
+}
